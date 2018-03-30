@@ -1,5 +1,7 @@
 # Test Results
 
+You can open http://localhost:3000/graphiql
+
 ## Context
 
 Fixtures have been loaded, database is a mongodb cloud instance M0, in Frankfurt, from Iasi, Romania.
