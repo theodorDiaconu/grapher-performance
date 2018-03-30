@@ -36,8 +36,8 @@ query {
 }
 ```
 
-Grapher: 256ms
-Without Grapher: 1040ms
+* Grapher: 256ms
+* Without Grapher: 1040ms
 
 Performance improvement: 4X
 
@@ -63,8 +63,8 @@ query {
 }
 ```
 
-Without Grapher: 10,650ms
-With Grapher: 302ms
+* Grapher: 302ms
+* Without Grapher: 10,650ms
 
 Performance speed: 35X
 
@@ -97,7 +97,7 @@ query {
 }
 ```
 
-With Grapher: 559ms
-Without Grapher: It took 2min then it stopped with (Failed to fetch)
+* Grapher: 559ms
+* Without Grapher: It took 2min then it stopped with (Failed to fetch)
 
 So we are talking: Minimum 200X
