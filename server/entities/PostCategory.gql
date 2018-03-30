@@ -1,0 +1,4 @@
+type PostCategory @mongo(name: "postCategories") {
+  name: String!
+  posts: [Post] @link(to: "category")
+}

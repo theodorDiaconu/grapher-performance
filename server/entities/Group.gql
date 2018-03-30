@@ -1,0 +1,5 @@
+type Group @mongo(name: "groups") {
+  _id: ID!
+  name: String!
+  users: [User] @link(to: "groups")
+}

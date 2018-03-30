@@ -1,0 +1,12 @@
+type Query {
+  users: [User]
+  posts(_id: String): [Post]
+  tags: [Tag]
+  comments: [Comment]
+  groups: [Group]
+  postCategories: [PostCategory]
+}
+
+type Mutation {
+  addPost(title: String): ID
+}

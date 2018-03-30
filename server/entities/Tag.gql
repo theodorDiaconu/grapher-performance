@@ -1,0 +1,5 @@
+type Tag @mongo(name: "tags") {
+  _id: ID!
+  name: String!
+  posts: [Post] @link(to: "tags")
+}

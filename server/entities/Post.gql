@@ -1,0 +1,8 @@
+type Post @mongo(name: "posts") {
+  _id: ID!
+  title: String
+  tags: [Tag] @link(field: "tagIds")
+  user: User @link(field: "userId")
+  comments: [Comment] @link(to: "post")
+  category: PostCategory @link(field: "categoryId")
+}

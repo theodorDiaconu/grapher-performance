@@ -1,0 +1,15 @@
+"""
+This represents the logged in user
+"""
+type User @mongo(name: "users") {
+  _id: ID!
+  username: String
+  email: String
+  """
+  These are the roles, the roles are ADMIN,EMPLOYEE,ETC
+  """
+  roles: [String]
+  groups: [Group] @link(field: "groupIds")
+  posts: [Post] @link(to: "user")
+  comments: [Comment] @link(to: "user")
+}

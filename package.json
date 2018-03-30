@@ -1,0 +1,31 @@
+{
+  "name": "grapher-performance",
+  "private": true,
+  "scripts": {
+    "start":
+      "MONGO_URL='mongodb://admin:GkXMn6QhvU7cIo7Y@cluster0-shard-00-00-m3z2c.mongodb.net:27017,cluster0-shard-00-01-m3z2c.mongodb.net:27017,cluster0-shard-00-02-m3z2c.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin' meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.36",
+    "apollo-cache-inmemory": "^1.1.12",
+    "apollo-client": "^2.2.8",
+    "apollo-link": "^1.2.1",
+    "apollo-link-http": "^1.5.3",
+    "apollo-link-ws": "^1.0.7",
+    "apollo-live-client": "^0.1.1",
+    "apollo-live-server": "^0.1.3",
+    "apollo-server-express": "^1.3.4",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-load": "^0.1.1",
+    "graphql-subscriptions": "^0.5.8",
+    "graphql-tools": "^2.23.1",
+    "graphql-type-json": "^0.2.0",
+    "meteor-node-stubs": "^0.3.2",
+    "subscriptions-transport-ws": "^0.9.7",
+    "uuid": "^3.2.1"
+  }
+}
