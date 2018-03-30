@@ -2,6 +2,8 @@
 
 Here we test what an impact can Grapher have on the performance and cost of your infrastructure, provided you use MongoDB and you make use of a lot of relations.
 
+Quickly create your own cluster to test this out: http://mbsy.co/lHRhH it's free
+
 Summary:
 
 | Query | Grapher | Standard | Improvement |
