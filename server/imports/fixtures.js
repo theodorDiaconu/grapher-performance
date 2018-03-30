@@ -71,3 +71,4 @@ Meteor.setTimeout(function() {
 
   console.log('[ok] fixtures have been loaded.');
 }, 2000);
+// We wait 2s for all links and inversed link to properly load

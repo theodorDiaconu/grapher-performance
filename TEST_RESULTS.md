@@ -1,3 +1,5 @@
+# Test Results
+
 ## Context
 
 Fixtures have been loaded, database is a mongodb cloud instance M0, in Frankfurt, from Iasi, Romania.
@@ -12,8 +14,7 @@ All queries have been run at least 10 times, and the amount is the mean.
 
 ## Query 1
 
-It's common that we would like to fetch a post, and along with it's information, the comments, and the names of the user who commented,
-we can ofcourse get many more info, the more we get the harder it is for non-grapher queries.
+It's common that we would like to fetch a post, and along with it's information, the comments, and the names of the user who commented, we can ofcourse get many more info, the more we get the harder it is for non-grapher queries.
 
 ```js
 query {
@@ -98,4 +99,5 @@ query {
 
 With Grapher: 559ms
 Without Grapher: It took 2min then it stopped with (Failed to fetch)
+
 So we are talking: Minimum 200X
